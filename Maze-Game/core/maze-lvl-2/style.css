@@ -1,0 +1,56 @@
+@charset "UTF-8";
+
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@100&display=swap');
+
+* {
+    font-family: Roboto;
+    color: white;
+}
+
+html {
+    height: 100%;
+    width: 100%;
+}
+
+body {
+    background-image: radial-gradient( circle farthest-corner at 10% 20%,  rgba(0,0,70,1) 0.3%, rgba(28,181,224,1) 90.2% );
+    background-size: 400%, 400%;
+    animation: bg ease 15s infinite;
+}
+
+h1 {
+    text-align: center;
+    font-size: 40px;
+}
+
+p {
+    margin-top: -15px;
+    font-size: 20px;
+}
+
+footer {
+    font-size: 20px;
+    margin-top: 30px;
+}
+
+#container {
+    text-align: center;
+}
+
+#canvas {
+    height: 450px;
+    width: 450px;
+    image-rendering: pixelated;
+}
+
+@keyframes bg {
+    from {
+        background-position: 0%, 50%;
+    }
+    50% {
+        background-position: 100%, 50%;
+    }
+    to {
+        background-position: 0%, 50%;
+    }
+}

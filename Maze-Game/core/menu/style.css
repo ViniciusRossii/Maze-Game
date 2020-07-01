@@ -1,0 +1,78 @@
+/* Configurações Gerais */
+
+@charset "UTF-8";
+
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@100&display=swap');
+
+:root {
+    --dark: #2c3e50;
+    --blue: #3498db;
+}
+
+* {
+    font-family: Roboto;
+    color: white;
+    font-weight: 100;
+}
+
+
+body {
+    background: linear-gradient(to right, #0f2027, #203a43, #2c5364);
+    background-size: 400%, 400%;
+    animation: bg ease 15s infinite;
+    user-select: none;
+}
+
+html {
+    height: 100%;
+    width: 100%;
+}
+
+#container {
+    text-align: center;
+}
+
+h1 {
+    margin-top: 50px;
+    margin-bottom: 0px;
+    font-size: 100px;
+}
+
+footer {
+    font-size: 20px;
+    margin-top: 230px;
+}
+
+#btn {
+    margin-top: 50px;
+    outline: none;
+    border: 1px solid white;
+    background: transparent;
+    height: 75px;
+    width: 200px;
+    font-size: 20px;
+    font-size: 30px;
+    color: white;
+    transition: background-color 0.5s;
+}
+
+#btn:hover {
+    background-color: rgba(52, 152, 219, 0.5);
+    color: white;
+}
+
+#btn:active {
+    transform: translateY(5px);
+}
+
+@keyframes bg {
+    from {
+        background-position: 0%, 50%;
+    }
+    50% {
+        background-position: 100%, 50%;
+    }
+    to {
+        background-position: 0%, 50%;
+    }
+}

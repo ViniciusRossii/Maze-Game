@@ -1,0 +1,31 @@
+@charset "UTF-8";
+
+@keyframes loader {
+    from {
+        transform: rotate(0deg);
+    }
+    25% {
+        transform: rotate(180deg);
+    }
+    50% {
+        transform: rotate(180deg);
+    }
+    75% {
+        transform: rotate(360deg);
+    }
+    100% {
+        transform: rotate(360deg);
+    }
+}
+
+@keyframes innerLoader {
+    from {
+        height: 0%;
+    }
+    50% {
+        height: 100%;
+    }
+    to {
+        height: 0%;
+    }
+}

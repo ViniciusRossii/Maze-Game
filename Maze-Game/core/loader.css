@@ -1,0 +1,37 @@
+@charset "UTF-8";
+
+:root {
+    --dark: #2c3e50;
+}
+
+#backgroundLoader {
+    background-color: var(--dark);
+    position: fixed;
+    height: 100%;
+    width: 100%;
+    top: 0;
+    left: 0;
+}
+
+#containerLoader {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
+#loader {
+    display: block;
+    border: 3px solid white;
+    height: 50px;
+    width: 50px;
+    animation: loader 2s ease 2;
+}
+
+#innerLoader {
+    display: block;
+    height: 0%;
+    width: 100%;
+    background-color: white;
+    animation: innerLoader 2s ease 2;
+}
