@@ -142,10 +142,10 @@ $("#loader").on("animationend", () => {
 ```
 ***
 # Próximas Atualizações
--[ ] Novo Loader inicial
--[ ] Mais fases com maior dificuldade
--[ ] Faça seu próprio labirinto
--[ ] Compatibilidade com Smartphones
+- [x] Novo Loader inicial
+- [ ] Mais fases com maior dificuldade
+- [ ] Faça seu próprio labirinto
+- [ ] Compatibilidade com Smartphones
 ***
 # Informações Adicionais
 Você pode ter acesso ao jogo a partir do link: https://viniciusrossii.github.io/Maze-Game/Maze-Game/menu.html
