@@ -3,5 +3,7 @@ function btn() {
 }
 
 $("#containerLoader").on("animationend", () => {
-    $("#backgroundLoader").fadeOut("slow")
+    setTimeout(() => {
+        $("#backgroundLoader").fadeOut("slow")
+    }, 1200)
 })
