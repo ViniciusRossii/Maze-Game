@@ -2,8 +2,8 @@ function btn() {
     window.location.href = "urls/maze-lvl-1.html"
 }
 
-$("#containerLoader").on("animationend", () => {
+$("#container-loader").on("animationend", () => {
     setTimeout(() => {
-        $("#backgroundLoader").fadeOut("slow")
+        $("#background-loader").fadeOut("slow")
     }, 1200)
 })

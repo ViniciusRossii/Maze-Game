@@ -1,3 +1,3 @@
 $("#loader").on("animationend", () => {
-    $("#backgroundLoader").fadeOut("slow")
+    $("#background-loader").fadeOut("slow")
 })

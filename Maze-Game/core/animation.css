@@ -18,7 +18,7 @@
     }
 }
 
-@keyframes innerLoader {
+@keyframes inner-loader {
     from {
         height: 0%;
     }
